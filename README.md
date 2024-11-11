@@ -1,5 +1,4 @@
-# exercism
-## ABAP in Exercism
+# exercism ABAP
 
 # This repository tracks all my ABAP exercised done on the Exercism website:
 
