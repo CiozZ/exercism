@@ -16,5 +16,7 @@
 4. [ITAB Nesting](https://exercism.org/tracks/abap/exercises/itab-nesting) \
     [Link to solution](src/zcl_itab_nesting.clas.abap)
 
+5. [Scrabble Score](https://exercism.org/tracks/abap/exercises/scrabble-score) \
+    [Link to solution](src/zcl_scrabble_score.clas.abap)
 
 # Enjoy
