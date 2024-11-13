@@ -25,4 +25,7 @@
 7. [Reverse String](https://exercism.org/tracks/abap/exercises/reverse-string) \
     [Link to solution](src/zcl_reverse_string.clas.abap)
 
+8. [High Scores](https://exercism.org/tracks/abap/exercises/high-scores) \
+    [Link to solution](src/zcl_high_scores.clas.abap)
+
 # Enjoy
