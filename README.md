@@ -19,4 +19,7 @@
 5. [Scrabble Score](https://exercism.org/tracks/abap/exercises/scrabble-score) \
     [Link to solution](src/zcl_scrabble_score.clas.abap)
 
+6. [Two Fer](https://exercism.org/tracks/abap/exercises/two-fer) \
+    [Link to solution](src/zcl_two_fer.clas.abap)
+
 # Enjoy
