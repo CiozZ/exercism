@@ -22,4 +22,7 @@
 6. [Two Fer](https://exercism.org/tracks/abap/exercises/two-fer) \
     [Link to solution](src/zcl_two_fer.clas.abap)
 
+7. [Reverse String](https://exercism.org/tracks/abap/exercises/reverse-string) \
+    [Link to solution](src/zcl_reverse_string.clas.abap)
+
 # Enjoy
