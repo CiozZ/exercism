@@ -16,12 +16,13 @@ CLASS zcl_reverse_string IMPLEMENTATION.
     DO input_length TIMES.
 
       DATA(offset) = input_length - sy-index.
-
       DATA(letters_iterator) = input+offset(1).
-
       result = |{ result }{ letters_iterator }|.
 
     ENDDO.
+
+    "Or
+    "result = reverse( input ).
 
   ENDMETHOD.
 
