@@ -28,4 +28,7 @@
 8. [High Scores](https://exercism.org/tracks/abap/exercises/high-scores) \
     [Link to solution](src/zcl_high_scores.clas.abap)
 
+9. [Resistor Color](https://exercism.org/tracks/abap/exercises/resistor-color) \
+    [Link to solution](src/zcl_resistor_color.clas.abap)
+
 # Enjoy
