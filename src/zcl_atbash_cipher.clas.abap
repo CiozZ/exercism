@@ -17,6 +17,8 @@ CLASS zcl_atbash_cipher DEFINITION PUBLIC FINAL CREATE PUBLIC.
       RETURNING
         VALUE(cipher_text) TYPE string .
 
+
+  PRIVATE SECTION.
     METHODS determine_letter_position
       IMPORTING letter        TYPE string
                 search_here   TYPE string
@@ -29,13 +31,7 @@ CLASS zcl_atbash_cipher DEFINITION PUBLIC FINAL CREATE PUBLIC.
       RETURNING
         VALUE(result) TYPE string.
 
-  PROTECTED SECTION.
-  PRIVATE SECTION.
-
-
 ENDCLASS.
-
-
 
 CLASS zcl_atbash_cipher IMPLEMENTATION.
 

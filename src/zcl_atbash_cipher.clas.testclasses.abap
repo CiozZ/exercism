@@ -17,9 +17,6 @@ CLASS ltcl_test DEFINITION FOR TESTING DURATION SHORT RISK LEVEL HARMLESS FINAL.
     METHODS decode5 FOR TESTING RAISING cx_static_check.
     METHODS decode6 FOR TESTING RAISING cx_static_check.
 
-    METHODS position_should_be_3 FOR TESTING.
-    METHODS extract_cipher_3 FOR TESTING.
-
 ENDCLASS.
 CLASS ltcl_test IMPLEMENTATION.
   METHOD setup.
@@ -94,15 +91,6 @@ CLASS ltcl_test IMPLEMENTATION.
     cl_abap_unit_assert=>assert_equals(
       act = mo_cut->decode( 'zmlyhgzxovrhlugvmzhgvkkrmthglmv' )
       exp = 'anobstacleisoftenasteppingstone' ).
-  ENDMETHOD.
-  METHOD position_should_be_3.
-    cl_abap_unit_assert=>assert_equals( exp = 3
-                                        act = mo_cut->determine_letter_position( letter = 'c' search_here = zcl_atbash_cipher=>mc_plain ) ).
-  ENDMETHOD.
-
-  METHOD extract_cipher_3.
-    cl_abap_unit_assert=>assert_equals( exp = 'x'
-                                        act = mo_cut->determine_letter( position = 3 search_here = zcl_atbash_cipher=>mc_cipher ) ).
   ENDMETHOD.
 
 ENDCLASS.
