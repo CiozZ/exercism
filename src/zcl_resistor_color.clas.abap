@@ -1,5 +1,6 @@
 CLASS zcl_resistor_color DEFINITION PUBLIC CREATE PUBLIC.
   PUBLIC SECTION.
+
     METHODS resistor_color
       IMPORTING
         color_code   TYPE string
