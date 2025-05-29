@@ -31,4 +31,7 @@
 9. [Resistor Color](https://exercism.org/tracks/abap/exercises/resistor-color) \
     [Link to solution](src/zcl_resistor_color.clas.abap)
 
+10. [Atbash Cipher](https://exercism.org/tracks/abap/exercises/atbash-cipher) \
+    [Link to solution](src/zcl_atbash_cipher.abap)
+
 # Enjoy
