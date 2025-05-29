@@ -33,5 +33,8 @@
 
 10. [Atbash Cipher](https://exercism.org/tracks/abap/exercises/atbash-cipher) \
     [Link to solution](src/zcl_atbash_cipher.clas.abap)
+    
+11. [Leap](https://exercism.org/tracks/abap/exercises/leap) \
+    [Link to solution](src/zcl_leap.clas.abap)
 
 # Enjoy
